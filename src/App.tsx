@@ -29,7 +29,7 @@ function App() {
         </>
       )}
 
-      {isNo && <img src={gif} alt="" className='w-full h-screen p-8'/>}
+      {isNo && <img src={gif} alt="" className='p-4 h-[500px]'/>}
     </div>
   )
 }
