@@ -12,7 +12,7 @@ function App() {
   }
 
   return (
-    <div className='min-h-screen min-w-screen flex flex-col items-center justify-center bg-pink-200 gap-12'>
+    <div className='min-h-screen min-w-screen flex flex-col text-center items-center justify-center bg-pink-200 gap-12'>
       {!isAnswered && (
         <>
           <div className='text-5xl font-bold'>Will you be my Valentine?</div>
@@ -29,7 +29,7 @@ function App() {
         </>
       )}
 
-      {isNo && <img src={gif} alt="" className='w-full h-screen'/>}
+      {isNo && <img src={gif} alt="" className='w-full h-screen p-4'/>}
     </div>
   )
 }
